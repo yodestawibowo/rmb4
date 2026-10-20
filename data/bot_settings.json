@@ -1,0 +1,10 @@
+{
+  "engine": "waha",
+  "wahaUrl": "http://waha:3000",
+  "wahaSession": "default",
+  "wahaApiKey": "",
+  "fonnteToken": "",
+  "defaultGroupJid": "",
+  "isActive": false,
+  "updatedAt": "2026-10-19T15:22:04.422Z"
+}

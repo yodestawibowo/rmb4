@@ -1,0 +1,89 @@
+[
+  {
+    "id": "audit_1792257224501_qanr",
+    "timestamp": "2026-10-17T17:13:44.501Z",
+    "category": "auth",
+    "action": "CONCURRENT_LOGIN_KICK",
+    "description": "Akun \"Administrator Sistem\" (ADMIN) masuk di perangkat baru \"Safari (iPhone 15 Pro)\" (IP: 127.0.0.1). Sesi pada perangkat sebelumnya (\"Chrome (Windows PC)\" - IP: 127.0.0.1) otomatis di-logout untuk mencegah penggunaan bersamaan di perangkat berbeda.",
+    "userId": "user_admin",
+    "userName": "Administrator Sistem",
+    "userRole": "admin",
+    "ipAddress": "127.0.0.1",
+    "userAgent": "curl/7.88.1",
+    "deviceInfo": "Safari (iPhone 15 Pro)",
+    "status": "warning",
+    "metadata": {
+      "previousSessionId": "sess_device_1",
+      "previousDevice": "Chrome (Windows PC)",
+      "previousIp": "127.0.0.1",
+      "newSessionId": "sess_device_2",
+      "newDevice": "Safari (iPhone 15 Pro)",
+      "newIp": "127.0.0.1"
+    }
+  },
+  {
+    "id": "log_1792256646158_jcavy",
+    "timestamp": "2026-10-17T17:04:06.158Z",
+    "category": "auth",
+    "action": "LOGIN_SUCCESS",
+    "description": "Pengguna \"Administrator Sistem\" (ADMIN) berhasil login ke sistem.",
+    "userId": "user_admin",
+    "userName": "Administrator Sistem",
+    "userRole": "admin",
+    "status": "success",
+    "serverReceivedAt": "2026-10-17T17:04:07.099Z"
+  },
+  {
+    "id": "log_1792247783811_02fbo",
+    "timestamp": "2026-10-17T14:36:23.811Z",
+    "category": "auth",
+    "action": "LOGIN_SUCCESS",
+    "description": "Pengguna \"Administrator Sistem\" (ADMIN) berhasil login ke sistem.",
+    "userId": "user_admin",
+    "userName": "Administrator Sistem",
+    "userRole": "admin",
+    "status": "success",
+    "serverReceivedAt": "2026-10-17T14:36:24.478Z"
+  },
+  {
+    "id": "log_1792247779548_pc17j",
+    "timestamp": "2026-10-17T14:36:19.548Z",
+    "category": "auth",
+    "action": "LOGIN_FAILED",
+    "description": "Percobaan login gagal untuk akun \"Administrator Sistem\": Kata sandi salah.",
+    "userId": "user_admin",
+    "userName": "Administrator Sistem",
+    "userRole": "admin",
+    "status": "danger",
+    "metadata": {
+      "username": "admin"
+    },
+    "serverReceivedAt": "2026-10-17T14:36:22.037Z"
+  },
+  {
+    "id": "log_1792244027108_xwsei",
+    "timestamp": "2026-10-17T13:33:47.108Z",
+    "category": "auth",
+    "action": "AUTO_LOGOUT_TIMEOUT",
+    "description": "Sesi login pengguna \"Administrator Sistem\" (ADMIN) otomatis keluar (logout) karena tidak ada aktivitas selama 15 menit.",
+    "userId": "user_admin",
+    "userName": "Administrator Sistem",
+    "userRole": "admin",
+    "status": "warning",
+    "serverReceivedAt": "2026-10-17T13:33:49.296Z"
+  },
+  {
+    "id": "log_1792151234946_ooi05",
+    "timestamp": "2026-10-16T11:47:14.946Z",
+    "deviceInfo": "Windows 11/10 (Mozilla Firefox)",
+    "ipAddress": "192.168.1.10",
+    "userId": "user_admin",
+    "userName": "Administrator Sistem",
+    "userRole": "admin",
+    "category": "auth",
+    "action": "LOGIN_SUCCESS",
+    "description": "Pengguna \"Administrator Sistem\" (ADMIN) berhasil login ke sistem.",
+    "status": "success",
+    "serverReceivedAt": "2026-10-16T11:47:14.347Z"
+  }
+]

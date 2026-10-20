@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cat_pme",
+    "name": "Bidang PME",
+    "description": "Pengendalian, Monitoring dan Evaluasi Pembangunan Daerah",
+    "color": "indigo",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "cat_infraswil",
+    "name": "Bidang Infrastruktur",
+    "description": "Infrastruktur, Kewilayahan dan Tata Bangunan",
+    "color": "emerald",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "cat_tataruang",
+    "name": "Bidang Tata Ruang",
+    "description": "Tata Ruang, Lingkungan Hidup dan Pertanahan",
+    "color": "blue",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "cat_sosbud",
+    "name": "Bidang Sosial Budaya",
+    "description": "Sosial Budaya, Pemerintahan dan Sumber Daya Manusia",
+    "color": "purple",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "cat_perekonomian",
+    "name": "Bidang Perekonomian",
+    "description": "Perekonomian, SDA, dan Penanaman Modal",
+    "color": "amber",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  }
+]
